@@ -57,3 +57,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     traceroute(args.url_or_ip, args.progressive, args.output_file)
+
